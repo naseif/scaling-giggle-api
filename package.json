@@ -1,0 +1,26 @@
+{
+  "name": "scaling-giggle-api",
+  "version": "1.0.0",
+  "description": "A RESTful API for vocabulary trainers.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naseif/scaling-giggle-api.git"
+  },
+  "keywords": [
+    "vocabulary-api"
+  ],
+  "author": "naseif",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/naseif/scaling-giggle-api/issues"
+  },
+  "homepage": "https://github.com/naseif/scaling-giggle-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}

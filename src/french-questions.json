@@ -1,0 +1,28 @@
+{   
+  "training": "French Training", 
+    "trainingID": "bb098538-526d-4410-ac86-6542cc1bf607",
+    "questions": 
+  [
+    { 
+      "question" : "How is your day?",
+      "questionType" : "MultipleChoice",
+      "data" : {
+          "options":[
+             { "id" : 1, "content" : "It's ok, its a bit rainy but nonetheless ok.", "isRightAnswer" : false },
+             { "id" : 2, "content" : "Absolutly amazing!", "isRightAnswer" : true },
+             { "id" : 3, "content" : "What year is it? Friday?", "isRightAnswer" : false }
+          ] 
+        } 
+    },
+    { 
+      "question" : "Who is Donald Trump?",
+      "questionType" : "MultipleChoice",
+      "data" : {
+          "options":[
+             { "id" : 1, "content" : "A Moron.", "isRightAnswer" : true },
+             { "id" : 2, "content" : "Trump Who????", "isRightAnswer" : true },
+             { "id" : 3, "content" : "Whoo cares? hes gone", "isRightAnswer" : true }
+          ] 
+      }
+    } 
+]} 

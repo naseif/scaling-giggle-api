@@ -1,0 +1,27 @@
+{
+  "training": "German Training", 
+  "trainingID": "09599904-1aea-461b-9862-7e152559084a",
+  "questions": [ 
+    { 
+      "question" : "Wie war dein Tag",
+      "questionType" : "MultipleChoice",
+      "data" : {
+          "options":[
+             { "id" : 1, "content" : "Er war gut", "isRightAnswer" : false },
+             { "id" : 2, "content" : "Aboslut schön", "isRightAnswer" : true },
+             { "id" : 3, "content" : "Keine Ahnung", "isRightAnswer" : false }
+          ] 
+      }
+    },
+    { 
+      "question" : "Wer ist Donald Trump",
+      "questionType" : "MultipleChoice",
+      "data" : {
+          "options":[
+             { "id" : 1, "content" : "Ein Trotel", "isRightAnswer" : true },
+             { "id" : 2, "content" : "Trump Wer????", "isRightAnswer" : true },
+             { "id" : 3, "content" : "Is mir Egal!", "isRightAnswer" : true }
+          ] 
+      }
+    } 
+]}

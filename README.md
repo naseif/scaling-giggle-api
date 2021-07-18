@@ -1,7 +1,6 @@
 # scaling-giggle-api
 
-A RESTful API for vocabulary trainers!!!!!.
-Testing Webhook! Please WORK!! Its working!!!!!
+A RESTful API for vocabulary trainers.
 
 ## TODO
 

@@ -1,10 +1,10 @@
 const express = require('express')
 let app = express()
-const port = 51337;
+const port = 8080;
 const cors = require("cors")
 const fs = require("fs");
 const path = __dirname
-console.log("hey hey")
+
 const questionFilesFilter = fs.readdirSync(path).filter((file) => file.endsWith(".json"));
 let questionFilesWithPath = [] 
 for (const file of questionFilesFilter) {

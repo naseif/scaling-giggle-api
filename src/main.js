@@ -34,7 +34,6 @@ app.get(`/training`, function (req, res) {
     return {
       training: training.training,
       trainingID: training.trainingID,
-      NumberOfQuestions: training.questions.length,
     };
   });
   try {

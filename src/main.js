@@ -1,32 +1,48 @@
-const express = require('express')
-let app = express()
+const express = require("express");
+let app = express();
 const port = 8080;
-const cors = require("cors")
+const cors = require("cors");
 const fs = require("fs");
-const path = __dirname
+const path = __dirname;
 
-const questionFilesFilter = fs.readdirSync(path).filter((file) => file.endsWith(".json"));
-let questionFilesWithPath = [] 
+const questionFilesFilter = fs
+  .readdirSync(path)
+  .filter((file) => file.endsWith(".json"));
+let questionFilesWithPath = [];
 for (const file of questionFilesFilter) {
-    const files = require(`${path}/${file}`)
-    questionFilesWithPath.push(files)
-} 
+  const files = require(`${path}/${file}`);
+  questionFilesWithPath.push(files);
+}
 
-
-app.use(cors())
+app.use(cors());
 
 app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
+  const traininglang = questionFilesWithPath.filter((file) =>
+    file.trainingID.includes(req.params.trainingID)
+  );
 
-    const traininglang = questionFilesWithPath.filter((file) => file.trainingID.includes(req.params.trainingID))
-    
-    try {
-        res.json(traininglang[0].questions[req.params.questionID]);
-    } catch (err) {
-        res.status(500).send('Something broke!');
-    } 
+  try {
+    res.json(traininglang[0].questions[req.params.questionID]);
+  } catch (err) {
+    res.status(500).send("Something broke!");
+  }
+});
 
-})
+console.log(questionFilesWithPath);
+app.get(`/training`, function (req, res) {
+  const trainingGuidList = questionFilesWithPath.map((training) => {
+    return {
+      training: training.training,
+      trainingID: training.trainingID,
+    };
+  });
+  try {
+    res.json(trainingGuidList);
+  } catch (err) {
+    res.status(500).send("Something broke!");
+  }
+});
 
 app.listen(port, () => {
-    console.log(`Example app listening at http://localhost:${port}`)
-})
+  console.log(`Example app listening at http://localhost:${port}`);
+});

@@ -16,19 +16,6 @@ for (const file of questionFilesFilter) {
 
 app.use(cors());
 
-app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
-  const traininglang = questionFilesWithPath.filter((file) =>
-    file.trainingID.includes(req.params.trainingID)
-  );
-
-  try {
-    res.json(traininglang[0].questions[req.params.questionID]);
-  } catch (err) {
-    res.status(500).send("Something broke!");
-  }
-});
-
-console.log(questionFilesWithPath);
 app.get(`/training`, function (req, res) {
   const trainingGuidList = questionFilesWithPath.map((training) => {
     return {
@@ -39,6 +26,29 @@ app.get(`/training`, function (req, res) {
   });
   try {
     res.json(trainingGuidList);
+  } catch (err) {
+    res.status(500).send("Something broke!");
+  }
+});
+
+app.get(`/training/:trainingID`, function (req, res) {
+  const getInfoById = questionFilesWithPath
+    .filter((file) => file.trainingID.includes(req.params.trainingID))
+    .map((question) => question.questions);
+  try {
+    res.json(getInfoById);
+  } catch (err) {
+    res.status(500).send("Something broke!");
+  }
+});
+
+app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
+  const traininglang = questionFilesWithPath.filter((file) =>
+    file.trainingID.includes(req.params.trainingID)
+  );
+
+  try {
+    res.json(traininglang[0].questions[req.params.questionID]);
   } catch (err) {
     res.status(500).send("Something broke!");
   }

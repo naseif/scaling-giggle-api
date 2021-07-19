@@ -35,8 +35,10 @@ app.get(`/training/:trainingID`, function (req, res) {
   const getInfoById = questionFilesWithPath
     .filter((file) => file.trainingID.includes(req.params.trainingID))
     .map((question) => question.questions);
+
+  const [listOfQuestions] = getInfoById;
   try {
-    res.json(getInfoById);
+    res.json(listOfQuestions);
   } catch (err) {
     res.status(500).send("Something broke!");
   }

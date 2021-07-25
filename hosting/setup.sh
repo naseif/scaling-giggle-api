@@ -19,6 +19,13 @@ cp scaling-giggle-env.service /lib/systemd/system/scaling-giggle-env.service
 cd ..
 npm i
 
+## generate self signed ssl certificate
+openssl genrsa -out key.pem
+openssl req -new -key key.pem -out csr.pem
+openssl x509 -req -days 9999 -in csr.pem -signkey key.pem -out cert.pem
+rm csr.pem
+
+## daemon stuff
 systemctl daemon-reload
 systemctl start scaling-giggle-env.service
 systemctl enable scaling-giggle-env.service

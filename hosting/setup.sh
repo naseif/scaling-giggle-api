@@ -13,7 +13,7 @@ curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
 ## install the service
-cp scaling-giggle-env.service /lib/systemd/scaling-giggle-env.service
+cp scaling-giggle-env.service /lib/systemd/system/scaling-giggle-env.service
 
 systemctl daemon-reload
 systemctl start scaling-giggle-env.service

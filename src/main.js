@@ -2,8 +2,7 @@ const express = require("express");
 let app = express();
 let https = require("https");
 let http = require("http");
-
-const port = 8080;
+const port = 51337;
 const cors = require("cors");
 const fs = require("fs");
 const path = __dirname;
@@ -59,19 +58,17 @@ app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
   }
 });
 
-if (fs.existsSync('../hosting/key.pem')) {
+if (fs.existsSync("../hosting/key.pem")) {
   const options = {
-    key: fs.readFileSync('../hosting/key.pem'),
-    cert: fs.readFileSync('../hosting/cert.pem')
+    key: fs.readFileSync("../hosting/key.pem"),
+    cert: fs.readFileSync("../hosting/cert.pem"),
   };
 
-  https.createServer(app).listen(443,() => {
+  https.createServer(app).listen(443, () => {
     console.log(`App listening at https://localhost`);
-  })
+  });
 } else {
-  http.createServer(app).listen(port,() => {
+  http.createServer(app).listen(port, () => {
     console.log(`App listening at http://localhost:${port}`);
-  })
+  });
 }
-
-

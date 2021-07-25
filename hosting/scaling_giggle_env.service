@@ -1,0 +1,14 @@
+[Unit]
+Description=scaling giggle api
+Documentation=https://github.com/naseif/scaling-giggle-api
+After=network.target
+
+[Service]
+Environment=NODE_PORT=8080
+Type=simple
+User=root
+ExecStart=/usr/bin/node /root/src/scaling-giggle-api/src/main.js
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

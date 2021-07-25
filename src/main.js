@@ -1,5 +1,8 @@
 const express = require("express");
 let app = express();
+let https = require("https");
+let http = require("http");
+
 const port = 8080;
 const cors = require("cors");
 const fs = require("fs");
@@ -56,6 +59,19 @@ app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+if (fs.existsSync('../hosting/key.pem')) {
+  const options = {
+    key: fs.readFileSync('../hosting/key.pem'),
+    cert: fs.readFileSync('../hosting/cert.pem')
+  };
+
+  https.createServer(app).listen(443,() => {
+    console.log(`App listening at https://localhost`);
+  })
+} else {
+  http.createServer(app).listen(port,() => {
+    console.log(`App listening at http://localhost:${port}`);
+  })
+}
+
+

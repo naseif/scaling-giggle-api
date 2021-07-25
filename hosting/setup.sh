@@ -18,6 +18,7 @@ cp scaling-giggle-env.service /lib/systemd/system/scaling-giggle-env.service
 ## we need to install the npm packages ... 
 cd ..
 npm i
+cd hosting
 
 ## generate self signed ssl certificate
 openssl genrsa -out key.pem

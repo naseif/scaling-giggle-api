@@ -59,10 +59,6 @@ app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
   }
 });
 
-http.createServer(app).listen(port,() => {
-  console.log(`App listening at http://localhost:${port}`);
-})
-
 if (fs.existsSync('../hosting/key.pem')) {
   const options = {
     key: fs.readFileSync('../hosting/key.pem'),
@@ -71,6 +67,10 @@ if (fs.existsSync('../hosting/key.pem')) {
 
   https.createServer(app).listen(443,() => {
     console.log(`App listening at https://localhost`);
+  })
+} else {
+  http.createServer(app).listen(port,() => {
+    console.log(`App listening at http://localhost:${port}`);
   })
 }
 

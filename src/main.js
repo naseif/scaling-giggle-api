@@ -63,11 +63,15 @@ http.createServer(app).listen(port,() => {
   console.log(`App listening at http://localhost:${port}`);
 })
 
-try {
+if (fs.existsSync('../hosting/key.pem')) {
+  const options = {
+    key: fs.readFileSync('../hosting/key.pem'),
+    cert: fs.readFileSync('../hosting/cert.pem')
+  };
+
   https.createServer(app).listen(443,() => {
     console.log(`App listening at https://localhost`);
   })
-} catch (error) {
-  console.log("Initializing https did not work, but what the heck ...");
 }
+
 

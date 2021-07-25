@@ -1,5 +1,8 @@
 const express = require("express");
 let app = express();
+let https = require("https");
+let http = require("http");
+
 const port = 8080;
 const cors = require("cors");
 const fs = require("fs");
@@ -56,6 +59,15 @@ app.get(`/training/:trainingID/question/:questionID`, function (req, res) {
   }
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`);
-});
+http.createServer(app).listen(port,() => {
+  console.log(`App listening at http://localhost:${port}`);
+})
+
+try {
+  https.createServer(app).listen(443,() => {
+    console.log(`App listening at https://localhost`);
+  })
+} catch (error) {
+  console.log("Initializing https did not work, but what the heck ...");
+}
+

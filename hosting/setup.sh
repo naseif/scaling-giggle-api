@@ -1,4 +1,4 @@
-#!sh
+#!/bin/bash
 # I assume you are running in a vultr vm as root
 
 # update the system so all is fresh

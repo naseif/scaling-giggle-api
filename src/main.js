@@ -6,6 +6,7 @@ const port = 51337;
 const cors = require("cors");
 const fs = require("fs");
 const path = __dirname;
+app.use(cors());
 
 const questionFilesFilter = fs
   .readdirSync(path)
@@ -15,8 +16,6 @@ for (const file of questionFilesFilter) {
   const files = require(`${path}/${file}`);
   questionFilesWithPath.push(files);
 }
-
-app.use(cors());
 
 app.get(`/training`, function (req, res) {
   const trainingGuidList = questionFilesWithPath.map((training) => {

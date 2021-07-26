@@ -54,12 +54,12 @@ Once you are finished with these steps we can now route the api to your domain :
 - type `cd nano default`
 - replace the content there with the following:
 
-  `
-  server {
-  listen 80;
-  server_name mydomain.com;
-  return 301 https://$host$request_uri;
-  }
+```service
+server {
+listen 80;
+server_name mydomain.com;
+return 301 https://$host$request_uri;
+}
 
 server {
 listen 443 ssl;
@@ -80,7 +80,8 @@ ssl_certificate_key /etc/nginx/ssl/mydomain.com/key.pem;
         }
 
 }
-`
+
+```
 
 then simply restart the nginx service `systemctl restart nginx`
 

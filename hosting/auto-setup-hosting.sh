@@ -103,3 +103,10 @@ else
 fi
 
 
+## Install LetsEncrypt
+
+apt install socat ## socat for standalone server if you use standalone mode
+echo -n "Provide your Email:  " 
+read letsEncryptEmail
+curl https://get.acme.sh | sh -s email=$letsEncryptEmail
+

@@ -110,3 +110,9 @@ echo -n "Provide your Email:  "
 read letsEncryptEmail
 curl https://get.acme.sh | sh -s email=$letsEncryptEmail
 
+mkdir -p /etc/nginx/ssl/$domainName
+chmod 700 /etc/nginx/ssl
+
+/root/.acme.sh/acme.sh --upgrade
+/root/.acme.sh/acme.sh --set-default-ca --server letsencrypt
+# /root/.acme.sh/acme.sh --force --issue --nginx -d $domainName

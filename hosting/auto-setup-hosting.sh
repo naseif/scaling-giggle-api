@@ -116,3 +116,7 @@ chmod 700 /etc/nginx/ssl
 /root/.acme.sh/acme.sh --upgrade
 /root/.acme.sh/acme.sh --set-default-ca --server letsencrypt
 # /root/.acme.sh/acme.sh --force --issue --nginx -d $domainName
+systemctl stop nginx
+/root/.acme.sh/acme.sh --force --issue --standalone -d $domainName --pre-hook "systemctl stop nginx" --post-hook "systemctl start nginx"
+sleep 1
+systemctl start nginx

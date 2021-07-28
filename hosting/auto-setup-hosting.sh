@@ -7,7 +7,7 @@ apt-get upgrade -y
 ## install nginx from the package manager
 apt install nginx -y
 
-## Install duckdns
+## Install duckdns (Thanks for whoever wrote this script!)
 
 userHome=$(eval echo ~${USER})
 duckPath="$userHome/duckdns"
@@ -37,7 +37,6 @@ case "$1" in
 esac
 
 # Main Install ***
-# Get sub domain 
 echo -ne "Enter your Duck DNS sub-domain name (e.g mydomain.duckdns.org) : "
 read domainName
 mySubDomain="${domainName%%.*}"

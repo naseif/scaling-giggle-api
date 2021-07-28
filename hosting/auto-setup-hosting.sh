@@ -120,3 +120,4 @@ systemctl stop nginx
 /root/.acme.sh/acme.sh --force --issue --standalone -d $domainName --pre-hook "systemctl stop nginx" --post-hook "systemctl start nginx"
 sleep 1
 systemctl start nginx
+/root/.acme.sh/acme.sh --force --install-cert -d $domainName --key-file /etc/nginx/ssl/$domainName/key.pem --fullchain-file /etc/nginx/ssl/$domainName/fullchain.pem --ca-file /etc/nginx/ssl/$domainName/chain.pem --reloadcmd "systemctl reload nginx"

@@ -2,11 +2,16 @@ const express = require("express");
 let app = express();
 let https = require("https");
 let http = require("http");
+const helmet = require("helmet");
+const morgan = require("morgan");
 const port = 51337;
 const cors = require("cors");
 const fs = require("fs");
 const path = __dirname;
+
 app.use(cors());
+app.use(helmet()); // To enhance api security
+app.use(morgan("combined")); // to log http requests
 
 const questionFilesFilter = fs
   .readdirSync(path)
@@ -16,6 +21,12 @@ for (const file of questionFilesFilter) {
   const files = require(`${path}/${file}`);
   questionFilesWithPath.push(files);
 }
+
+app.get("/", (req, res) => {
+  res.send(
+    "Try /training, /training/:trainingID or /training/:trainingID/question/:question"
+  );
+});
 
 app.get(`/training`, function (req, res) {
   const trainingGuidList = questionFilesWithPath.map((training) => {

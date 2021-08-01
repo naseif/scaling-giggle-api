@@ -1,0 +1,287 @@
+{
+  "training": "CSS Training",
+  "trainingID": "f4e9a048-516d-4147-8d0b-e642ed2c9f35",
+  "questions": [
+    {
+      "questionCategory": "Color Properties",
+      "data": {
+        "question": "Sets the color of text",
+        "Answer": "color"
+      }
+    },
+    {
+      "questionCategory": "Color Properties",
+      "data": {
+        "question": "Sets the opacity level for an element",
+        "Answer": "opacity"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "A shorthand property for setting all the background properties in one declaration",
+        "Answer": "background"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets whether a background image is fixed or scrolls with the rest of the page",
+        "Answer": "background-attachment"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies the background color of an element",
+        "Answer": "background-color"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies one or more background images for an element",
+        "Answer": "background-image"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets how a background image will be repeated",
+        "Answer": "background-repeat"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies the painting area of the background",
+        "Answer": "background-clip"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies where the background image(s) is/are positioned",
+        "Answer": "background-origin"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies the size of the background image(s)",
+        "Answer": "background-size"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets all the border properties in one declaration",
+        "Answer": "border"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets all the bottom border properties in one declaration",
+        "Answer": "border-bottom"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the color of the bottom border",
+        "Answer": "border-bottom-color"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Defines the shape of the border of the bottom-left corner",
+        "Answer": "border-bottom-left-radius"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Defines the shape of the border of the bottom-right corner",
+        "Answer": "border-bottom-right-radius"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the style of the bottom border",
+        "Answer": "border-bottom-style"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the width of the bottom border",
+        "Answer": "border-bottom-width"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the color of the four borders",
+        "Answer": "border-color"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "A shorthand property for setting all the border-image-* properties",
+        "Answer": "border-image"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies the amount by which the border image area extends beyond the border box",
+        "Answer": "border-image-outset"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies whether the border image should be repeated, rounded or stretched",
+        "Answer": "border-image-repeat"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies how to slice the border image",
+        "Answer": "border-image-slice"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies the path to the image to be used as a border",
+        "Answer": "border-image-source"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Specifies the widths of the image-border",
+        "Answer": "border-image-width"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets all the left border properties in one declaration",
+        "Answer": "border-left"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the color of the left border",
+        "Answer": "border-left-color"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the style of the left border",
+        "Answer": "border-left-style"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the width of the left border",
+        "Answer": "border-left-width"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "A shorthand property for setting all the four border-*-radius properties",
+        "Answer": "border-radius"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets all the right border properties in one declaration",
+        "Answer": "border-right"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the color of the right border",
+        "Answer": "border-right-color"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the style of the right border",
+        "Answer": "border-right-style"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the width of the right border",
+        "Answer": "border-right-width"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the style of the four borders",
+        "Answer": "border-style"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets all the top border properties in one declaration",
+        "Answer": "border-top"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the color of the top border",
+        "Answer": "border-top-color"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Defines the shape of the border of the top-left corner",
+        "Answer": "border-top-left-radius"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Defines the shape of the border of the top-right corner",
+        "Answer": "border-top-right-radius"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the style of the top border",
+        "Answer": "border-top-style"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the width of the top border",
+        "Answer": "border-top-width"
+      }
+    }
+  ]
+}
+

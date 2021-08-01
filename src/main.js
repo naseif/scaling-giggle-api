@@ -7,16 +7,16 @@ const morgan = require("morgan");
 const port = 51337;
 const cors = require("cors");
 const fs = require("fs");
-const path = __dirname;
+const path = __dirname + "/category";
+const { findFiles } = require("./module/getFilesRecursivly");
 
 app.use(cors());
 app.use(helmet()); // To enhance api security
 app.use(morgan("combined")); // to log http requests
 
-const questionFilesFilter = fs
-  .readdirSync(path)
-  .filter((file) => file.endsWith(".json"));
+const questionFilesFilter = findFiles(path, "json");
 let questionFilesWithPath = [];
+
 for (const file of questionFilesFilter) {
   const files = require(`${path}/${file}`);
   questionFilesWithPath.push(files);

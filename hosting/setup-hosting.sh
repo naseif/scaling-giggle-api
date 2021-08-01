@@ -11,6 +11,9 @@ snap install powershell --classic
 curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
 
+##
+cd ..
+npm i
 ## Install duckdns (Thanks for whoever wrote this script!)
 
 userHome=$(eval echo ~${USER})
@@ -108,3 +111,8 @@ pwsh set-nginx.configuration.ps1 -domainName $domainName
 rm /etc/nginx/sites-enabled/default
 cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 systemctl restart nginx
+
+cd hosting
+cp scaling-giggle-env.service /etc/systemd/system/scaling-giggle-env.service
+systemctl start scaling-giggle-env.service
+systemctl enable scaling-giggle-env.service

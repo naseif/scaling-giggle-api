@@ -7,6 +7,9 @@ apt-get upgrade -y
 ## install nginx from the package manager
 apt install nginx -y
 snap install powershell --classic
+## Nodejs installations
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
 ## Install duckdns (Thanks for whoever wrote this script!)
 

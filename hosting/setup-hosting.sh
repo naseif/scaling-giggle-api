@@ -6,6 +6,7 @@ apt-get upgrade -y
 
 ## install nginx from the package manager
 apt install nginx -y
+snap install powershell --classic
 
 ## Install duckdns (Thanks for whoever wrote this script!)
 

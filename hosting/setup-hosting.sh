@@ -15,28 +15,6 @@ duckPath="$userHome/duckdns"
 duckLog="$duckPath/duck.log"
 duckScript="$duckPath/duck.sh"
 
-# Remove Option
-case "$1" in
-	remove)
-	    echo -ne "Un Install Duck DNS (Y/N) [Y] :"
-      read confirmCont
-      if [ "$confirmCont" != "Y" ] && [ "$confirmCont" != "Yes" ] && [ "$confirmCont" != "" ] && [ "$confirmCont" != "y" ]
-        then 
-          echo "Setup cancelled. Program will now quit."
-          exit 0 
-      fi
-      # Remove Duck DNS files
-      rm -R $duckPath
-      # Remove Cron Job
-      crontab -l >/tmp/crontab.tmp
-      sed -e 's/\(^.*duck.sh$\)//g' /tmp/crontab.tmp  | crontab
-      rm /tmp/crontab.tmp  
-      echo "Duck DNS removed"
-      exit 0        
-	;;
-	
-esac
-
 # Main Install ***
 echo -ne "Enter your Duck DNS sub-domain name (e.g mydomain.duckdns.org) : "
 read domainName
@@ -121,3 +99,6 @@ systemctl stop nginx
 sleep 1
 systemctl start nginx
 /root/.acme.sh/acme.sh --force --install-cert -d $domainName --key-file /etc/nginx/ssl/$domainName/key.pem --fullchain-file /etc/nginx/ssl/$domainName/fullchain.pem --ca-file /etc/nginx/ssl/$domainName/chain.pem --reloadcmd "systemctl reload nginx"
+
+## Set new nginx configuration
+pwsh set-nginx.configuration.ps1 -domainName $domainName

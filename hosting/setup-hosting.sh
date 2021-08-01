@@ -107,12 +107,13 @@ systemctl start nginx
 /root/.acme.sh/acme.sh --force --install-cert -d $domainName --key-file /etc/nginx/ssl/$domainName/key.pem --fullchain-file /etc/nginx/ssl/$domainName/fullchain.pem --ca-file /etc/nginx/ssl/$domainName/chain.pem --reloadcmd "systemctl reload nginx"
 
 ## Set new nginx configuration
+cd hosting
 pwsh set-nginx.configuration.ps1 -domainName $domainName
 rm /etc/nginx/sites-enabled/default
 cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 systemctl restart nginx
 
-cd hosting
+## copy the scaling-giggle-env.service to systemd and enable it
 cp scaling-giggle-env.service /etc/systemd/system/scaling-giggle-env.service
 systemctl start scaling-giggle-env.service
 systemctl enable scaling-giggle-env.service

@@ -102,4 +102,6 @@ systemctl start nginx
 
 ## Set new nginx configuration
 pwsh set-nginx.configuration.ps1 -domainName $domainName
+rm /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 systemctl restart nginx

@@ -102,3 +102,4 @@ systemctl start nginx
 
 ## Set new nginx configuration
 pwsh set-nginx.configuration.ps1 -domainName $domainName
+systemctl restart nginx

@@ -281,7 +281,664 @@
         "question": "Sets the width of the top border",
         "Answer": "border-top-width"
       }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the width of the four borders",
+        "Answer": "border-width"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Sets the behaviour of the background and border of an element at page-break, or, for in-line elements, at line-break.",
+        "Answer": "box-decoration-break"
+      }
+    },
+    {
+      "questionCategory": "Background and Border Properties",
+      "data": {
+        "question": "Attaches one or more drop-shadows to the box",
+        "Answer": "box-shadow"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies the bottom position of a positioned element",
+        "Answer": "bottom"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies which sides of an element where other floating elements are not allowed",
+        "Answer": "clear"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Clips an absolutely positioned element",
+        "Answer": "clip"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies how a certain HTML element should be displayed",
+        "Answer": "display"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies whether or not a box should float",
+        "Answer": "float"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the height of an element",
+        "Answer": "height"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies the left position of a positioned element",
+        "Answer": "left"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets all the margin properties in one declaration",
+        "Answer": "margin"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the bottom margin of an element",
+        "Answer": "margin-bottom"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the left margin of an element",
+        "Answer": "margin-left"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the right margin of an element",
+        "Answer": "margin-right"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the top margin of an element",
+        "Answer": "margin-top"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the maximum height of an element",
+        "Answer": "max-height"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the maximum width of an element",
+        "Answer": "max-width"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the minimum height of an element",
+        "Answer": "min-height"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the minimum width of an element",
+        "Answer": "min-width"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies what happens if content overflows an element's box",
+        "Answer": "overflow"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies whether or not to clip the left/right edges of the content, if it overflows the element's content area",
+        "Answer": "overflow-x"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies whether or not to clip the top/bottom edges of the content, if it overflows the element's content area",
+        "Answer": "overflow-y"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets all the padding properties in one declaration",
+        "Answer": "padding"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the bottom padding of an element",
+        "Answer": "padding-bottom"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the left padding of an element",
+        "Answer": "padding-left"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the right padding of an element",
+        "Answer": "padding-right"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the top padding of an element",
+        "Answer": "padding-top"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies the type of positioning method used for an element (static, relative, absolute or fixed)",
+        "Answer": "position"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies the right position of a positioned element",
+        "Answer": "right"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies the top position of a positioned element",
+        "Answer": "top"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Specifies whether or not an element is visible",
+        "Answer": "visibility"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the width of an element",
+        "Answer": "width"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the vertical alignment of an element",
+        "Answer": "vertical-align"
+      }
+    },
+    {
+      "questionCategory": "Basic Box Properties",
+      "data": {
+        "question": "Sets the stack order of a positioned element",
+        "Answer": "z-index"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the alignment between the lines inside a flexible container when the items do not use all available space",
+        "Answer": "align-content"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the alignment for items inside a flexible container",
+        "Answer": "align-items"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the alignment for selected items inside a flexible container",
+        "Answer": "align-self"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the length of the item, relative to the rest",
+        "Answer": "flex"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the initial length of a flexible item",
+        "Answer": "flex-basis"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the direction of the flexible items",
+        "Answer": "flex-direction"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "A shorthand property for the flex-direction and the flex-wrap properties",
+        "Answer": "flex-flow"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies how much the item will grow relative to the rest",
+        "Answer": "flex-grow"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies how the item will shrink relative to the rest",
+        "Answer": "flex-shrink"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies whether the flexible items should wrap or not",
+        "Answer": "flex-wrap"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Specifies the alignment between the items inside a flexible container when the items do not use all available space",
+        "Answer": "justify-content"
+      }
+    },
+    {
+      "questionCategory": "Flexible Box Layout",
+      "data": {
+        "question": "Sets the order of the flexible item, relative to the rest",
+        "Answer": "order"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies whether a punctuation character may be placed outside the line box",
+        "Answer": "hanging-punctuation"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Sets how to split words to improve the layout of paragraphs",
+        "Answer": "hyphens"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Increases or decreases the space between characters in a text",
+        "Answer": "letter-spacing"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies how/if to break lines",
+        "Answer": "line-break"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies how/if to break lines",
+        "Answer": "line-break"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Sets the line height",
+        "Answer": "line-height"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies whether or not the browser may break lines within words in order to prevent overflow (when a string is too long to fit its containing box)",
+        "Answer": "overflow-wrap"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies the length of the tab-character",
+        "Answer": "tab-size"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies the horizontal alignment of text",
+        "Answer": "text-align"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Describes how the last line of a block or a line right before a forced line break is aligned when text-align is \"justify\"",
+        "Answer": "text-align-last"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies the combination of multiple characters into the space of a single character",
+        "Answer": "text-combine-upright"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies the indentation of the first line in a text-block",
+        "Answer": "text-indent"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies the justification method used when text-align is \"justify\"",
+        "Answer": "text-justify"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Controls the capitalization of text",
+        "Answer": "text-transform"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies how white-space inside an element is handled",
+        "Answer": "white-space"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Specifies line breaking rules for non-CJK scripts",
+        "Answer": "word-break"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Increases or decreases the space between words in a text",
+        "Answer": "word-spacing"
+      }
+    },
+    {
+      "questionCategory": "Text Properties",
+      "data": {
+        "question": "Allows long, unbreakable words to be broken and wrap to the next line",
+        "Answer": "word-wrap"
+      }
+    },
+    {
+      "questionCategory": "Text Decoration Properties",
+      "data": {
+        "question": "Specifies the decoration added to text",
+        "Answer": "text-decoration"
+      }
+    },
+    {
+      "questionCategory": "Text Decoration Properties",
+      "data": {
+        "question": "Specifies the color of the text-decoration",
+        "Answer": "text-decoration-color"
+      }
+    },
+    {
+      "questionCategory": "Text Decoration Properties",
+      "data": {
+        "question": "Specifies the type of line in a text-decoration",
+        "Answer": "text-decoration-line"
+      }
+    },
+    {
+      "questionCategory": "Text Decoration Properties",
+      "data": {
+        "question": "Specifies the style of the line in a text decoration",
+        "Answer": "text-decoration-style"
+      }
+    },
+    {
+      "questionCategory": "Text Decoration Properties",
+      "data": {
+        "question": "Adds shadow to text",
+        "Answer": "text-shadow"
+      }
+    },
+    {
+      "questionCategory": "Text Decoration Properties",
+      "data": {
+        "question": "Specifies the position of the underline which is set using the text-decoration property",
+        "Answer": "text-underline-position"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "A rule that allows websites to download and use fonts other than the web-safe fonts",
+        "Answer": "@font-face"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Sets all the font properties in one declaration",
+        "Answer": "font"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Specifies the font family for text",
+        "Answer": "font-family"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Controls the usage of the kerning information (how letters are spaced)",
+        "Answer": "font-kerning"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Specifies the font size of text",
+        "Answer": "font-size"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Preserves the readability of text when font fallback occurs",
+        "Answer": "font-size-adjust"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Selects a normal, condensed, or expanded face from a font family",
+        "Answer": "font-stretch"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Specifies the font style for text",
+        "Answer": "font-style"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Controls which missing typefaces (bold or italic) may be synthesized by the browser",
+        "Answer": "font-synthesis"
+      }
+    },
+    {
+      "questionCategory": "Font Properties",
+      "data": {
+        "question": "Specifies the weight of a font",
+        "Answer": "font-weight"
+      }
+    },
+    {
+      "questionCategory": "Writing Modes Properties",
+      "data": {
+        "question": "Specifies the text direction/writing direction",
+        "Answer": "direction"
+      }
+    },
+    {
+      "questionCategory": "Writing Modes Properties",
+      "data": {
+        "question": "Defines the orientation of the text in a line",
+        "Answer": "text-orientation"
+      }
+    },
+    {
+      "questionCategory": "Writing Modes Properties",
+      "data": {
+        "question": "Specifies the combination of multiple characters into the space of a single character",
+        "Answer": "text-combine-upright"
+      }
+    },
+    {
+      "questionCategory": "Table Properties",
+      "data": {
+        "question": "Specifies whether or not table borders should be collapsed",
+        "Answer": "border-collapse"
+      }
+    },
+    {
+      "questionCategory": "Table Properties",
+      "data": {
+        "question": "Specifies the distance between the borders of adjacent cells",
+        "Answer": "border-spacing"
+      }
+    },
+    {
+      "questionCategory": "Table Properties",
+      "data": {
+        "question": "Specifies the placement of a table caption",
+        "Answer": "caption-side"
+      }
+    },
+    {
+      "questionCategory": "Table Properties",
+      "data": {
+        "question": "Specifies whether or not to display borders and background on empty cells in a table",
+        "Answer": "empty-cells"
+      }
+    },
+    {
+      "questionCategory": "Table Properties",
+      "data": {
+        "question": "Sets the layout algorithm to be used for a table",
+        "Answer": "table-layout"
+      }
+    },
+    {
+      "questionCategory": "Lists and Counters Properties",
+      "data": {
+        "question": "Increments one or more counters",
+        "Answer": "counter-increment"
+      }
+    },
+    {
+      "questionCategory": "Lists and Counters Properties",
+      "data": {
+        "question": "Creates or resets one or more counters",
+        "Answer": "counter-reset"
+      }
+    },
+    {
+      "questionCategory": "Lists and Counters Properties",
+      "data": {
+        "question": "Sets all the properties for a list in one declaration",
+        "Answer": "list-style"
+      }
+    },
+    {
+      "questionCategory": "Lists and Counters Properties",
+      "data": {
+        "question": "Specifies an image as the list-item marker",
+        "Answer": "list-style-image"
+      }
+    },
+    {
+      "questionCategory": "Lists and Counters Properties",
+      "data": {
+        "question": "Specifies if the list-item markers should appear inside or outside the content flow",
+        "Answer": "list-style-position"
+      }
+    },
+    {
+      "questionCategory": "Lists and Counters Properties",
+      "data": {
+        "question": "Specifies the type of list-item marker",
+        "Answer": "list-style-type"
+      }
     }
   ]
 }
-

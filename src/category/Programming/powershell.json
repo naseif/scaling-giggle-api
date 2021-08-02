@@ -1,0 +1,492 @@
+{
+  "training": "Powershell Training",
+  "trainingID": "a9950095-c5c3-4375-8f95-d5bd35b84c66",
+
+  "questions": [
+    {
+      "question": "What is the name of the Commandlet that helps you to select random things?",
+      "Answer": "Get-Random",
+      "questionCategory": ""
+    },
+    {
+      "question": "How do you get the current date/time?",
+      "Answer": "Get-Date",
+      "questionCategory": ""
+    },
+    {
+      "question": "What is | % the short form of?",
+      "Answer": "foreach",
+      "questionCategory": ""
+    },
+    {
+      "question": "What is | ? the short form of?",
+      "Answer": "where",
+      "questionCategory": ""
+    },
+    {
+      "question": "What Commandlet lets you add C# classes to Powershell code?",
+      "Answer": "Add-Type",
+      "questionCategory": ""
+    },
+    {
+      "question": "What Commandlet lets you instanciate C# classes in Powershell code?",
+      "Answer": "New-Object",
+      "questionCategory": ""
+    },
+    {
+      "question": "Instantiate the c# class \"Todo\" that has 2 constructor parameters \"this is a todo\" and \"new\" (the status).",
+      "Answer": "New-Object Todo -ArgumentList \"this is a todo\",\"new\"",
+      "questionCategory": ""
+    },
+    {
+      "question": "How do you read the contents of a file?",
+      "Answer": "Get-Content",
+      "questionCategory": ""
+    },
+    {
+      "question": "Read the some.json File into a Powershell class",
+      "Answer": "(Get-Content some.json) -join \"`n\" | ConvertFrom-Json",
+      "questionCategory": ""
+    },
+    {
+      "question": "Does the operator -contains search a substring or if an item is part of an array?",
+      "Answer": "array",
+      "questionCategory": ""
+    },
+    {
+      "question": "What operator do you use for checking if a string contains a substring?",
+      "Answer": "-match",
+      "questionCategory": ""
+    },
+    {
+      "question": "Get help for the Commandlet Get-Service",
+      "Answer": "Get-Help Get-Service",
+      "questionCategory": ""
+    },
+    {
+      "question": "List all members of the Result Object of the Commandlet Get-Service",
+      "Answer": "Get-Service | Get-Member",
+      "questionCategory": ""
+    },
+    {
+      "question": "Define a new variable a to be an int and of value 32.",
+      "Answer": "[int]$a = 32",
+      "questionCategory": ""
+    },
+    {
+      "question": "Define an array named a with the values blue, red and yellow.",
+      "Answer": "$a = \"blue\",\"red\",\"yellow\"",
+      "questionCategory": ""
+    },
+    {
+      "question": "Add the local computer to a domain or workgroup.",
+      "Answer": "Add-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Adds content to the specified items, such as adding words to a file.",
+      "Answer": "Add-Content",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a system restore point on the local computer.",
+      "Answer": "Checkpoint-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes the contents of an item, but does not delete the item.",
+      "Answer": "Clear-Content",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes all entries from specified event logs on the local or remote computers.",
+      "Answer": "Clear-EventLog",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes the contents of an item, but does not delete the item.",
+      "Answer": "Clear-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes the value of a property but does not delete the property.",
+      "Answer": "Clear-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Commits the active transaction.",
+      "Answer": "Complete-Transaction",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Converts a path from a Windows PowerShell path to a Windows PowerShell provider path.",
+      "Answer": "Convert-Path",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Copies an item from one location to another.",
+      "Answer": "Copy-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Copies a property and value from a specified location to another location.",
+      "Answer": "Copy-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Debugs one or more processes running on the local computer.",
+      "Answer": "Debug-Process",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Disables the System Restore feature on the specified file system drive.",
+      "Answer": "Disable-ComputerRestore",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Enables the System Restore feature on the specified file system drive.",
+      "Answer": "Enable-ComputerRestore",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the items and child items in one or more specified locations.",
+      "Answer": "Get-ChildItem",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the restore points on the local computer.",
+      "Answer": "Get-ComputerRestorePoint",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the content of the item at the specified location.",
+      "Answer": "Get-Content",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets control panel items.",
+      "Answer": "Get-ControlPanelItem",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the events in an event log, or a list of the event logs, on the local or remote computers.",
+      "Answer": "Get-EventLog",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the hotfixes that have been applied to the local and remote computers.",
+      "Answer": "Get-HotFix",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the item at the specified location.",
+      "Answer": "Get-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the properties of a specified item.",
+      "Answer": "Get-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets information about the current working location or a location stack.",
+      "Answer": "Get-Location",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the processes that are running on the local computer or a remote computer.",
+      "Answer": "Get-Process",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets drives in the current session.",
+      "Answer": "Get-PSDrive",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets information about the specified Windows PowerShell provider.",
+      "Answer": "Get-PSProvider",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the services on a local or remote computer.",
+      "Answer": "Get-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets the current (active) transaction.",
+      "Answer": "Get-Transaction",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Gets instances of Windows Management Instrumentation (WMI) classes or information about the available classes.",
+      "Answer": "Get-WmiObject",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Performs the default action on the specified item.",
+      "Answer": "Invoke-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Calls WMI methods.",
+      "Answer": "Invoke-WmiMethod",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Combines a path and child-path into a single path.",
+      "Answer": "Join-Path",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Sets the event log properties that limit the size of the event log and the age of its entries.",
+      "Answer": "Limit-EventLog",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Moves an item from one location to another.",
+      "Answer": "Move-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Moves a property from one location to another.",
+      "Answer": "Move-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a new event log and a new event source on a local or remote computer.",
+      "Answer": "New-EventLog",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a new item.",
+      "Answer": "New-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a new property for an item and sets its value. For example, you can use New-ItemProperty to create and change registry values and data, which are properties of a registry key.",
+      "Answer": "New-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a Windows PowerShell drive in the current console.",
+      "Answer": "New-PSDrive",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a new Windows service.",
+      "Answer": "New-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates a Web service proxy object that lets you use and manage the Web service in Windows PowerShell.",
+      "Answer": "New-WebServiceProxy",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Changes to the location most recently pushed onto the stack by Push-Location.",
+      "Answer": "Pop-Location",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Adds the current location to the top of a list of locations (\"stack\").",
+      "Answer": "Push-Location",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Subscribes to an event generated by a WMI object.",
+      "Answer": "Register-WmiEvent",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Removes computers from workgroups or domains.",
+      "Answer": "Remove-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes an event log or unregisters an event source.",
+      "Answer": "Remove-EventLog",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes the specified items.",
+      "Answer": "Remove-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes the property and its value from an item.",
+      "Answer": "Remove-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Removes a Windows PowerShell drive from its location.",
+      "Answer": "Remove-PSDrive",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Deletes WMI classes and instances.",
+      "Answer": "Remove-WmiObject",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Renames a computer.",
+      "Answer": "Rename-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Renames an item in a Windows PowerShell provider namespace.",
+      "Answer": "Rename-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Renames a property of an item.",
+      "Answer": "Rename-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Resets the machine account password for the computer.",
+      "Answer": "Reset-ComputerMachinePassword",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Resolves the wildcard characters in a path and displays the path contents.",
+      "Answer": "Resolve-Path",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Restarts (\"reboots\") the operating system on local and remote computers.",
+      "Answer": "Restart-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Stops and then starts one or more services.",
+      "Answer": "Restart-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Starts a system restore on the local computer.",
+      "Answer": "Restore-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Resumes one or more suspended (paused) services.",
+      "Answer": "Resume-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Writes or replaces the content in an item with new content.",
+      "Answer": "Set-Content",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Changes the value of an item to the value specified in the command.",
+      "Answer": "Set-Item",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates or changes the value of a property of an item.",
+      "Answer": "Set-ItemProperty",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Sets the current working location to a specified location.",
+      "Answer": "Set-Location",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Starts, stops, and suspends a service, and changes its properties.",
+      "Answer": "Set-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Creates or modifies instances of WMI classes.",
+      "Answer": "Set-WmiInstance",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Opens control panel items.",
+      "Answer": "Show-ControlPanelItem",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Displays the event logs of the local or a remote computer in Event Viewer.",
+      "Answer": "Show-EventLog",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Returns the specified part of a path.",
+      "Answer": "Split-Path",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Starts one or more processes on the local computer.",
+      "Answer": "Start-Process",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Starts one or more stopped services.",
+      "Answer": "Start-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Starts a transaction.",
+      "Answer": "Start-Transaction",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Shuts down local and remote computers.",
+      "Answer": "Stop-Computer",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Stops one or more running processes.",
+      "Answer": "Stop-Process",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Stops one or more running services.",
+      "Answer": "Stop-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Suspends (pauses) one or more running services.",
+      "Answer": "Suspend-Service",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Tests and repairs the secure channel between the local computer and its domain.",
+      "Answer": "Test-ComputerSecureChannel",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Sends ICMP echo request packets (\"pings\") to one or more computers.",
+      "Answer": "Test-Connection",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Determines whether all elements of a path exist.",
+      "Answer": "Test-Path",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Rolls back the active transaction.",
+      "Answer": "Undo-Transaction",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Adds the script block to the active transaction.",
+      "Answer": "Use-Transaction",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Waits for the processes to be stopped before accepting more input.",
+      "Answer": "Wait-Process",
+      "questionCategory": "Management Commandlets"
+    },
+    {
+      "question": "Writes an event to an event log.",
+      "Answer": "Write-EventLog",
+      "questionCategory": "Management Commandlets"
+    }
+  ]
+}

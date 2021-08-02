@@ -1,0 +1,537 @@
+{
+  "training": "HTML-Basis-Training",
+  "trainingID": "94f3aa2f-5d31-451b-ad33-e861f52409a8",
+
+  "questions": [
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a comment",
+      "Answer": "<!--...-->"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines the document type",
+      "Answer": "<!DOCTYPE>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Define a hyperlink to http://www.google.de that opens a new tab when clicked, and using the visible text of 'Google this!'!",
+      "Answer": "<a href='http://www.google.de' target='_blank'>Google this!</a>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an abbreviation or an acronym",
+      "Answer": "<abbr>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines contact information for the author/owner of a document",
+      "Answer": "<address>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an area inside an image-map",
+      "Answer": "<area>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an article",
+      "Answer": "<article>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines content aside from the page content",
+      "Answer": "<aside>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines sound content",
+      "Answer": "<audio>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines bold text",
+      "Answer": "<b>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Specifies the base URL/target for all relative URLs in a document",
+      "Answer": "<base>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Isolates a part of text that might be formatted in a different direction from other text outside it",
+      "Answer": "<bdi>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Overrides the current text direction",
+      "Answer": "<bdo>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a section that is quoted from another source",
+      "Answer": "<blockquote>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines the document\u0027s body",
+      "Answer": "<body>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a single line break",
+      "Answer": "<br>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a clickable button",
+      "Answer": "<button>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Used to draw graphics, on the fly, via scripting (usually JavaScript)",
+      "Answer": "<canvas>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a table caption",
+      "Answer": "<caption>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines the title of a work",
+      "Answer": "<cite>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a piece of computer code",
+      "Answer": "<code>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Specifies column properties for each column within a <colgroup> element ",
+      "Answer": "<col>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Specifies a group of one or more columns in a table for formatting",
+      "Answer": "<colgroup>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Specifies a list of pre-defined options for input controls",
+      "Answer": "<datalist>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a description/value of a term in a description list",
+      "Answer": "<dd>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines text that has been deleted from a document",
+      "Answer": "<del>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines additional details that the user can view or hide",
+      "Answer": "<details>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Represents the defining instance of a term",
+      "Answer": "<dfn>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a dialog box or window",
+      "Answer": "<dialog>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a section in a document",
+      "Answer": "<div>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a description list",
+      "Answer": "<dl>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a term/name in a description list",
+      "Answer": "<dt>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines emphasized text ",
+      "Answer": "<em>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a container for an external (non-HTML) application",
+      "Answer": "<embed>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Groups related elements in a form",
+      "Answer": "<fieldset>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a caption for a <figure> element",
+      "Answer": "<figcaption>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Specifies self-contained content",
+      "Answer": "<figure>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a footer for a document or section",
+      "Answer": "<footer>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an HTML form for user input",
+      "Answer": "<form>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines HTML headings",
+      "Answer": "<h1> to <h6>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines information about the document",
+      "Answer": "<head>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a header for a document or section",
+      "Answer": "<header>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a thematic change in the content",
+      "Answer": "<hr>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines the root of an HTML document",
+      "Answer": "<html>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a part of text in an alternate voice or mood",
+      "Answer": "<i>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an inline frame",
+      "Answer": "<iframe>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an image",
+      "Answer": "<img>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an input control",
+      "Answer": "<input>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a text that has been inserted into a document",
+      "Answer": "<ins>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines keyboard input",
+      "Answer": "<kbd>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a key-pair generator field (for forms)",
+      "Answer": "<keygen>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a label for an <input> element",
+      "Answer": "<label>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a caption for a <fieldset> element",
+      "Answer": "<legend>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a list item",
+      "Answer": "<li>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines the relationship between a document and an external resource (most used to link to style sheets)",
+      "Answer": "<link>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Specifies the main content of a document",
+      "Answer": "<main>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a client-side image-map",
+      "Answer": "<map>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines marked/highlighted text",
+      "Answer": "<mark>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a list/menu of commands",
+      "Answer": "<menu>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a command/menu item that the user can invoke from a popup menu",
+      "Answer": "<menuitem>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines metadata about an HTML document",
+      "Answer": "<meta>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a scalar measurement within a known range (a gauge)",
+      "Answer": "<meter>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines navigation links",
+      "Answer": "<nav>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an alternate content for users that do not support client-side scripts",
+      "Answer": "<noscript>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an embedded object",
+      "Answer": "<object>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an ordered list",
+      "Answer": "<ol>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a group of related options in a drop-down list",
+      "Answer": "<optgroup>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an option in a drop-down list",
+      "Answer": "<option>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines the result of a calculation",
+      "Answer": "<output>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a paragraph",
+      "Answer": "<p>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a parameter for an object",
+      "Answer": "<param>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines preformatted text",
+      "Answer": "<pre>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Represents the progress of a task",
+      "Answer": "<progress>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a short quotation",
+      "Answer": "<q>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines what to show in browsers that do not support ruby annotations",
+      "Answer": "<rp>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an explanation/pronunciation of characters (for East Asian typography)",
+      "Answer": "<rt>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a ruby annotation (for East Asian typography)",
+      "Answer": "<ruby>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines text that is no longer correct",
+      "Answer": "<s>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines sample output from a computer program",
+      "Answer": "<samp>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a client-side script",
+      "Answer": "<script>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a section in a document",
+      "Answer": "<section>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a drop-down list",
+      "Answer": "<select>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines smaller text",
+      "Answer": "<small>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines multiple media resources for media elements (<video> and <audio>)",
+      "Answer": "<source>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a section in a document",
+      "Answer": "<span>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines important text",
+      "Answer": "<strong>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines style information for a document",
+      "Answer": "<style>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines subscripted text",
+      "Answer": "<sub>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a visible heading for a <details> element",
+      "Answer": "<summary>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines superscripted text",
+      "Answer": "<sup>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a table",
+      "Answer": "<table>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Groups the body content in a table",
+      "Answer": "<tbody>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a cell in a table",
+      "Answer": "<td>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a multiline input control (text area)",
+      "Answer": "<textarea>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Groups the footer content in a table",
+      "Answer": "<tfoot>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a header cell in a table",
+      "Answer": "<th>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Groups the header content in a table",
+      "Answer": "<thead>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a date/time",
+      "Answer": "<time>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a title for the document",
+      "Answer": "<title>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a row in a table",
+      "Answer": "<tr>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines text tracks for media elements (<video> and <audio>)",
+      "Answer": "<track>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines text that should be stylistically different from normal text",
+      "Answer": "<u>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines an unordered list",
+      "Answer": "<ul>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a variable",
+      "Answer": "<var>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a video or movie",
+      "Answer": "<video>"
+    },
+    {
+      "questionCategory": "HTML5-Elements",
+      "question": "Defines a possible line-break",
+      "Answer": "<wbr>"
+    }
+  ]
+}

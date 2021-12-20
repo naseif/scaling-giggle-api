@@ -52,4 +52,5 @@ api.AddEndPoint(
   }
 );
 
-api.startServer("true");
+api.port = 3000;
+api.startServer({ useDefaultMiddlewares: "true" });

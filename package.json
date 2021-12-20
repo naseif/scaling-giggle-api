@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/naseif/scaling-giggle-api#readme",
   "dependencies": {
-    "api-tools-ts": "^1.2.6"
+    "api-tools-ts": "^1.3.1"
   }
 }
